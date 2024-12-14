@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Notas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="calculadora.html">Calculadora</a></li>
+                <li><a href="clima.html">Clima</a></li>
+                <li><a href="temporizador.html">Temporizador</a></li>
+                <li><a href="pomodoro.html">Pomodoro</a></li>
+                <li><a href="propina.html">propina</a></li>
+                <li><a href="recordatorios.html">Recordatorios</a></li>
+                <li><a href="unidad.html">Unidad</a></li>
+                <li><a href="tareas.html">Tareas</a></li>
+                <li><a href="lista_compras.html">Lista de la Compra</a></li>
+                <li><a href="chat.html">Chat con IA</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="notas">
+            <h2>Notas</h2>
+            <input type="text" id="titulo" placeholder="Título de la nota">
+            <textarea id="nota" placeholder="Escribe tus notas aquí..."></textarea>
+            <button onclick="guardarNota()">Guardar Nota</button>
+            <ul id="notas-lista"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mi Aplicación Útil</p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

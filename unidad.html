@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Conversor de Unidades</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="calculadora.html">Calculadora</a></li>
+                <li><a href="clima.html">Clima</a></li>
+                <li><a href="temporizador.html">Temporizador</a></li>
+                <li><a href="notas.html">Notas</a></li>
+                <li><a href="pomodoro.html">Pomodoro</a></li>
+                <li><a href="propina.html">propina</a></li>
+                <li><a href="recordatorios.html">Recordatorios</a></li>
+                <li><a href="tareas.html">Tareas</a></li>
+                <li><a href="lista_compras.html">Lista de la Compra</a></li>
+                <li><a href="chat.html">Chat con IA</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="conversor">
+            <h2>Conversor de Unidades</h2>
+            <input type="number" id="valor" placeholder="Valor">
+            <select id="unidad">
+                <option value="metros">Metros a Kilómetros</option>
+                <option value="kilometros">Kilómetros a Metros</option>
+            </select>
+            <button onclick="convertir()">Convertir</button>
+            <p id="resultado-conversor"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mi Aplicación Útil</p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
